@@ -71,7 +71,7 @@ header {
 header h1 {
   font-family: 'Flamenco', cursive; font-weight: 900;
   letter-spacing: -1px;
-  font-size: 48px;
+  font-size: 7em;
   color: #303030;
   line-height: 1.2;
 }
