@@ -71,17 +71,26 @@ header {
 header h1 {
   font-family: 'Flamenco', cursive; font-weight: 900;
   letter-spacing: -1px;
-  font-size: 7em;
+  font-size: 4.5em;
   color: #303030;
   line-height: 1.2;
 }
 
-header h2 {
+header h1 .light {
+  font-family: 'Flamenco', cursive; 
+  font-weight: 100;
   letter-spacing: -1px;
-  font-size: 24px;
   color: #aaa;
-  font-weight: normal;
+  line-height: 1.2;
+}
+
+
+header h2 {
+  font-family: 'Flamenco', cursive;
+  font-size: 30px;
+  color: #aaa;
   line-height: 1.3;
+  font-weight: 100;
 }
 
 #container {
@@ -90,7 +99,7 @@ header h2 {
 }
 
 .inner {
-  width: 620px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -369,3 +378,10 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+.intro{padding-top:20px;}
+.intro p {
+  color: #aaa;
+  margin-bottom: 0px;
+  
+}
