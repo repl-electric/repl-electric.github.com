@@ -60,7 +60,7 @@ a {
   color: #d5000d;
 }
 a:hover {
-  color: #c5000c;
+  color: #FFF;
 }
 
 header {
@@ -330,7 +330,7 @@ footer a {
   color: #666;
 }
 footer a:hover {
-  color: #444;
+  color: #999;
 }
 
 /* MISC */
