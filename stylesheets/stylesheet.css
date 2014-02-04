@@ -46,6 +46,11 @@ table {
 	border-spacing: 0;
 }
 
+.sounds{
+  margin-top:5px;
+  margin-bottom:30px;
+}
+
 /* LAYOUT STYLES */
 body {
   font-size: 1em;
@@ -261,9 +266,8 @@ h2 {
 } 
 
 h3 {
-  color: #d5000d;
+  color: #8E8D8D;
   font-size: 18px;
-  font-weight: bold;
   margin-bottom: 8px;
 } 
  
