@@ -70,7 +70,7 @@ a:hover {
 
 header {
   padding-top: 35px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 header h1 {
@@ -186,6 +186,16 @@ code, pre {
   font-size: 14px;
 }
 
+pre.clojure{
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
+    color: #222;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: #D4D5D0;
+    padding-top: 13px;
+    padding-bottom: 14px;
+}
+
 code {
   background-color: #f2f2f2;
   border: solid 1px #ddd;
@@ -268,7 +278,7 @@ h2 {
 h3 {
   color: #8E8D8D;
   font-size: 18px;
-  margin-bottom: 8px;
+  margin-top: 10px;
 } 
  
 h4 {
@@ -290,6 +300,9 @@ h6 {
 p {
   font-weight: 300;
   margin-bottom: 20px;
+  padding-top:4px;
+  padding-bottom:4px;
+  
 }
  
 a {
@@ -306,6 +319,23 @@ blockquote {
   margin-bottom: 20px;
   padding: 0 0 0 30px;
 }
+
+blockquote.binary {
+  font-size: 0.5em;
+  border-left: 10px solid #e9e9e9;
+  margin-bottom: 20px;
+  padding: 0 0 0 30px;
+  color: #111;
+}
+
+blockquote.code {
+  font-size: 1em;
+  border-left: 10px solid #e9e9e9;
+  margin-bottom: 20px;
+  padding: 0 0 0 30px;
+  color: #111;
+}
+
 
 ul li {
   list-style: disc inside;
@@ -388,4 +418,23 @@ footer a:hover {
   color: #aaa;
   margin-bottom: 0px;
   
+}
+
+.norm, .bracket1 {
+  color: #352C2C;
+}
+
+.bracket2{
+  color: #BA8C2B;
+}
+
+.bracket3{
+  color: #7599A7;
+}
+
+.fn-name, .square-bracket{
+  color:#8C74D6;
+}
+.keyword{
+  color: #646667;
 }
