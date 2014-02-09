@@ -447,3 +447,7 @@ footer a:hover {
 .prompt{
   font-weight: 100;
 }
+
+.focus{
+  text-shadow: 0 1px 0 rgba(255, 85, 0, 0.59); 
+}
