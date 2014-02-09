@@ -277,8 +277,9 @@ h2 {
 
 h3 {
   color: #8E8D8D;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 10px;
+  font-weight: 300;
 } 
  
 h4 {
@@ -437,4 +438,12 @@ footer a:hover {
 }
 .keyword{
   color: #646667;
+}
+
+.emphasis{
+  color:#7A7A7A;
+}
+
+.prompt{
+  font-weight: 100;
 }
