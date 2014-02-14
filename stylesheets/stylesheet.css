@@ -445,6 +445,7 @@ footer a:hover {
 }
 
 .prompt{
+  text-shadow: 0 1px 0 rgba(255, 85, 0, 0.59);
   font-weight: 100;
 }
 
