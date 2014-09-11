@@ -99,13 +99,16 @@ header h2 {
 }
 
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  background: transparent url(../images/highlight-bg.jpg) 50% 0 repeat-y;
   min-height: 595px;
 }
 
 .inner {
   width: 800px;
   margin: 0 auto;
+  padding-left: 50px;
+  background-color: rgba(255, 255, 255, 0.43);
+  padding-right: 50px;
 }
 
 #container .inner img {
