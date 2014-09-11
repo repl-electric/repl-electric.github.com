@@ -99,7 +99,7 @@ header h2 {
 }
 
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 repeat-y;
+  background: url(../images/highlight-bg.jpg) 50% 0 repeat-none;
   min-height: 595px;
 }
 
@@ -107,8 +107,11 @@ header h2 {
   width: 800px;
   margin: 0 auto;
   padding-left: 50px;
-  background-color: rgba(255, 255, 255, 0.43);
+  background-color: rgba(245, 245, 245, 0.88);
   padding-right: 50px;
+  border: 20px solid rgba(245, 245, 245, 0.99);
+  border-top:0px;
+  border-bottom:0px;
 }
 
 #container .inner img {
