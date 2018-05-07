@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -11,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -54,7 +54,7 @@ table {
 /* LAYOUT STYLES */
 body {
   font-size: 1em;
-  line-height: 1.5; 
+  line-height: 1.5;
   background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
@@ -82,7 +82,7 @@ header h1 {
 }
 
 header h1 .light {
-  font-family: 'Flamenco', cursive; 
+  font-family: 'Flamenco', cursive;
   font-weight: 100;
   letter-spacing: -1px;
   color: #aaa;
@@ -124,7 +124,7 @@ header h2 {
 
 a.button {
   -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;                     
+  -webkit-border-radius: 30px;
   border-radius: 30px;
   border-top: solid 1px #cbcbcb;
   border-left: solid 1px #b7b7b7;
@@ -138,7 +138,7 @@ a.button {
   display: block;
   float: left;
   width: 179px;
-  margin-right: 14px;  
+  margin-right: 14px;
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
@@ -257,14 +257,14 @@ th {
 
 td {
   border: 1px solid #ebebeb;
-  text-align: center; 
+  text-align: center;
   font-weight: 300;
 }
 
 form {
   background: #f2f2f2;
   padding: 20px;
-  
+
 }
 
 
@@ -272,46 +272,46 @@ form {
 
 h1 {
   font-size: 32px;
-} 
+}
 
 h2 {
   font-size: 22px;
   font-weight: bold;
   color: #303030;
   margin-bottom: 8px;
-} 
+}
 
 h3 {
   color: #555555;
   font-size: 22px;
   margin-top: 10px;
   font-weight: 300;
-} 
- 
+}
+
 h4 {
   font-size: 16px;
   color: #303030;
   font-weight: bold;
-} 
+}
 
 h5 {
   font-size: 1em;
   color: #303030;
-} 
+}
 
 h6 {
   font-size: .8em;
   color: #303030;
-} 
+}
 
 p {
   font-weight: 300;
   margin-bottom: 20px;
   padding-top:4px;
   padding-bottom:4px;
-  
+
 }
- 
+
 a {
 
 }
@@ -424,7 +424,7 @@ footer a:hover {
 .intro p {
   color: #888;
   margin-bottom: 0px;
-  
+
 }
 
 .norm, .bracket1 {
@@ -456,5 +456,12 @@ footer a:hover {
 }
 
 .focus{
-  text-shadow: 0 1px 0 rgba(255, 85, 0, 0.59); 
+  text-shadow: 0 1px 0 rgba(255, 85, 0, 0.59);
+}
+
+.embed-container {
+  position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
 }
