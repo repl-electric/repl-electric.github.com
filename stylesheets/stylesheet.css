@@ -77,7 +77,7 @@ header h1 {
   font-family: 'Flamenco', cursive; font-weight: 900;
   letter-spacing: -1px;
   font-size: 4.5em;
-  color: #303030;
+  color: #6c2e6c;
   line-height: 1.2;
 }
 
@@ -85,7 +85,7 @@ header h1 .light {
   font-family: 'Flamenco', cursive;
   font-weight: 100;
   letter-spacing: -1px;
-  color: #aaa;
+  color: #6c2e6c;
   line-height: 1.2;
 }
 
@@ -451,12 +451,13 @@ footer a:hover {
 }
 
 .prompt{
+  color: #6c2e6c;
   text-shadow: 0 1px 0 rgba(255, 20, 147, 0.59);
   font-weight: 100;
 }
 
 .focus{
-  color: #810081;
+  color: #6c2e6c;
   text-shadow: 0 1px 0 rgba(255, 20, 147, 0.59);
 }
 
