@@ -428,7 +428,7 @@ footer a:hover {
 
 .intro{padding-top:20px;}
 .intro p {
-  color: #888;
+  color: #333;
   margin-bottom: 0px;
 
 }
@@ -453,7 +453,7 @@ footer a:hover {
 }
 
 .emphasis{
-  color:#7A7A7A;
+  color:#000;
 }
 
 .prompt{
