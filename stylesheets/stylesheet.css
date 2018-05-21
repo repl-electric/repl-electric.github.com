@@ -77,15 +77,16 @@ header h1 {
   font-family: 'Flamenco', cursive; font-weight: 900;
   letter-spacing: -1px;
   font-size: 4.5em;
-  color: #6c2e6c;
+  color: #FF1493;
   line-height: 1.2;
+  text-shadow: 0 1px 1px rgba(255, 20, 147, 0.7);
 }
 
 header h1 .light {
   font-family: 'Flamenco', cursive;
   font-weight: 100;
   letter-spacing: -1px;
-  color: #6c2e6c;
+  color: #FF1493;
   line-height: 1.2;
 }
 
