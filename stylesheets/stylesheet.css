@@ -201,6 +201,7 @@ pre.clojure{
     background-color: #f1ddeb;
     padding-top: 13px;
     padding-bottom: 14px;
+    border-radius: 4px;
 }
 
 code {
