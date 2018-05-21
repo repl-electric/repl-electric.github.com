@@ -451,12 +451,13 @@ footer a:hover {
 }
 
 .prompt{
-  text-shadow: 0 1px 0 rgba(255, 85, 0, 0.59);
+  text-shadow: 0 1px 0 rgba(255, 20, 147, 0.59);
   font-weight: 100;
 }
 
 .focus{
-  text-shadow: 0 1px 0 rgba(255, 85, 0, 0.59);
+  color: #810081;
+  text-shadow: 0 1px 0 rgba(255, 20, 147, 0.59);
 }
 
 .embed-container {
