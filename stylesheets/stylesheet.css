@@ -346,13 +346,18 @@ blockquote.code {
 
 
 ul li {
-  list-style: disc inside;
+  list-style: none;
   padding-left: 20px;
 }
 
 ol li {
-  list-style: decimal inside;
+  list-style: none;
   padding-left: 3px;
+}
+
+li::before {
+  content: "• ";
+  color: #FF1493;
 }
 
 dl dt {
