@@ -440,7 +440,7 @@ footer a:hover {
 }
 
 .fn-name, .square-bracket{
-  color:#D84326;
+  color: #FF1493;
 }
 .keyword{
   color: #646667;
@@ -452,13 +452,13 @@ footer a:hover {
 
 .prompt{
   color: #6c2e6c;
-  text-shadow: 0 1px 0 rgba(255, 20, 147, 0.59);
+  text-shadow: 0 1px 1px rgba(255, 20, 147, 1.0);
   font-weight: 100;
 }
 
 .focus{
   color: #6c2e6c;
-  text-shadow: 0 1px 0 rgba(255, 20, 147, 0.59);
+  text-shadow: 0 1px 1px rgba(255, 20, 147, 0.7);
 }
 
 .embed-container {
