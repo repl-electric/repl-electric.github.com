@@ -287,6 +287,7 @@ h3 {
   font-size: 1.7em;
   margin-top: 10px;
   font-weight: 300;
+  border-bottom: 1.0px dotted #e7bdff;
 }
 
 h4 {
