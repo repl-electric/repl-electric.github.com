@@ -70,30 +70,35 @@ a:hover {
 }
 
 header {
-  padding-top: 35px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
+.ascii {
+	font-family: 'Annie Use Your Telescope', cursive;
+	font-size: 0.5em;
+}
+
 header h1 {
-  font-family: 'Flamenco', cursive; font-weight: 900;
-  letter-spacing: -1px;
-  font-size: 4.5em;
+  /*font-family: 'Flamenco', cursive; font-weight: 900;*/
+	font-family: 'Quicksand', cursive;
+	letter-spacing: -1px;
+  font-size: 6.5em;
   color: #FF1493;
   line-height: 1.2;
-
+	text-shadow: 0px 1px 0px #af0256;
 }
 
 header h1 .light {
-  font-family: 'Flamenco', cursive;
+  font-family: 'Quicksand', cursive;
   font-weight: 100;
   letter-spacing: -1px;
   color: #FF1493;
   line-height: 1.2;
 }
 
-
 header h2 {
-  font-family: 'Flamenco', cursive;
+  font-family: 'Quicksand', cursive;
   font-size: 30px;
    color: #FF1493;
   line-height: 1.3;
@@ -106,12 +111,12 @@ header h2 {
 }
 
 .inner {
-  width: 800px;
+  width: 80%;
   margin: 0 auto;
   padding-left: 50px;
   background-color: rgba(255, 255, 255, 0.88);
   padding-right: 50px;
-  border: 20px solid rgba(245, 245, 245, 0.99);
+	border: 20px solid rgba(107, 47, 107, 0.99);
   border-top:0px;
   border-bottom:0px;
 }
@@ -273,23 +278,13 @@ form {
 
 /* GENERAL ELEMENT TYPE STYLES */
 
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  font-size: 22px;
-  font-weight: bold;
-  color: #303030;
-  margin-bottom: 8px;
-}
-
 h3 {
   color: #6b2f6b;
-  font-size: 1.7em;
+  font-size: 1.8em;
   margin-top: 10px;
   font-weight: 300;
   border-bottom: 1.0px dotted #e7bdff;
+	font-family: 'Quicksand', cursive;
 }
 
 h4 {
@@ -460,14 +455,14 @@ footer a:hover {
 }
 
 .prompt{
-  color: #6c2e6c;
-  text-shadow: 0 1px 1px rgba(255, 20, 147, 1.0);
+  color: rgba(255, 20, 147, 1.0);
+  text-shadow: 0 1px 1px #6c2e6c;
   font-weight: 100;
 }
 
 .focus{
   color: #6c2e6c;
-  text-shadow: 0 1px 1px rgba(255, 20, 147, 0.7);
+  text-shadow: 0px 1px 6px rgba(255, 20, 147, 0.8);
 }
 
 .embed-container {
