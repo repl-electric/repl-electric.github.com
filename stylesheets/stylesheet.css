@@ -76,10 +76,9 @@ header {
 
 .ascii {
 	font-family: 'Annie Use Your Telescope', cursive;
-	font-size: 0.8em;
+	font-size: 1.8em;
 	display: block;
   float: right;
-  padding-top: 20px;
 }
 
 header h1 {
@@ -337,7 +336,15 @@ footer a:hover {
 ================================================== */
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {}
+@media only screen and (max-width: 959px) {
+header h1 {
+  font-size: 3.8em;
+}
+.inner {
+    width: 75%;
+}
+h3{font-size: 1.5em;}
+}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {}
@@ -355,7 +362,7 @@ footer a:hover {
     display: none;
   }
   .inner {
-    width: 94%;
+    width: 75%;
     margin: 0 auto;
   }
 }
