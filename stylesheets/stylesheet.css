@@ -55,7 +55,7 @@ table {
 body {
   font-size: 1em;
   line-height: 1.5;
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  background: #e7e7e7 url(../images/body-bg2.png) 0 0 repeat;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   color: #333;
@@ -144,6 +144,7 @@ code, pre {
   color: #222;
   margin-bottom: 30px;
   font-size: 14px;
+	border: 1px solid #6c326c3b;
 }
 
 pre.clojure{
@@ -155,6 +156,7 @@ pre.clojure{
     padding-top: 13px;
     padding-bottom: 14px;
     border-radius: 4px;
+		border: 1px solid #6c326c3b;
 }
 
 code {
